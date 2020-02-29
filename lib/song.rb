@@ -44,6 +44,6 @@ class Song
 
   def self.alphabetical
     self.all.sort_by{|song| song.name[0]}.uniq
-
   end
+  
 end
